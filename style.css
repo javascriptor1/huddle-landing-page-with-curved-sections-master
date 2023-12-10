@@ -157,14 +157,16 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(8px, -100%);
+  transform: translate(0, -100%);
+  width: 100%;
 }
 
 .grow-together img[src="images/bg-section-bottom-mobile-1.svg"] {
   position: absolute;
   bottom: 0;
   left: 0;
-  transform: translate(8px, 100%);
+  transform: translate(0, 100%);
+  width: 100%;
 }
 /* Flowing section  */
 .flowing-section {
@@ -220,14 +222,15 @@ h1 {
   position: absolute;
   bottom: 0;
   left: 0;
-  transform: translate(8px, 100%);
+  transform: translate(0px, 100%);
+  width: 100%;
 }
 
 /* ready section  */
 
 .ready {
   margin-top: 10.6rem;
-  margin-bottom: 23rem;
+  margin-bottom: 19.81rem;
 }
 .ready h2 {
   margin-bottom: 2.7rem;
@@ -240,18 +243,30 @@ h1 {
   font-size: 0.7rem;
   font-weight: 700;
 }
- /* Footer styling */
+/* Footer styling */
 
- footer {
-    background-color: var(--Very-Dark-Cyan);
-    color: #fff;
-    margin: 0 -2rem;
- }
+footer {
+  background-color: var(--Very-Dark-Cyan);
+  color: #fff;
+  margin: 0 -2rem;
+  padding: 0 2rem;
+  position: relative;
+}
 
- footer h3{
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    padding-left: 4px;
-    color: #fff;
-    
- }
+footer h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-left: 4px;
+  color: #fff;
+}
+
+.dark-div {
+    height: auto;
+}
+footer img[src="images/bg-footer-top-mobile.svg"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0, -98%);
+    width: 100%;
+  }
