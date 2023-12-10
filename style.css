@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --Pink: hsl(322, 100%, 66%);
+  --Light-Pink: hsl(321, 100%, 78%);
+  --Light-Red: hsl(0, 100%, 63%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 1.5rem;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7.25rem;
+}
+
+.header img {
+  display: block;
+  /* transform: scale(40%);  don't use scale as it will not align in flex container properly*/
+  width: 94px;
+  height: 16px;
+}
+.header a {
+  color: var(--Light-Pink);
+  border: 1px solid hsl(321, 100%, 78%);
+  border-radius: 999px;
+  padding: 0.2rem 0.9rem;
+  font-size: 0.7rem;
+  position: relative;
+  left: -2px;
+}
+section {
+  text-align: center;
+}
+h1 {
+  margin-bottom: 1.5rem;
+}
+.hero-section p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  /* padding: 0 12px;  we can align the text by either padding or margin auto with width 95%*/
+  width: 95%;
+  margin: 0 auto 3.5rem;
+}
+
+.get-started {
+  color: #fff;
+  background-color: var(--Light-Pink);
+  font-weight: 700;
+  padding: 0.625rem 2.5rem;
+  border-radius: 999px;
+  font-size: 12px;
+  margin-bottom: 2rem;
+}
+.hero-section div {
+  margin-top: 7rem;
+}
+.hero-section img {
+  width: 90%;
+}
+
+.stats-div {
+  display: grid;
+  margin-top: 7.4rem;
+  gap: 6rem;
+}
+.stats-div div {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  margin: 0 auto;
+}
+
+.stats-div img:nth-of-type(1) {
+  width: 30px;
+}
+.stats-div div:last-child img {
+  width: 24px;
+}
+.stats-div p:first-of-type {
+  font-size: 3.75rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.stats-div img[src="images/icon-messages.svg"] + p {
+font-size: 3.3rem;
+}
+.stats-div p:nth-of-type(2) {
+  font-size: 0.9375rem;
+  text-align: center;
+}
