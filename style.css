@@ -146,13 +146,14 @@ h1 {
 }
 .section-paragraph {
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.5;
   color: var(--Very-Dark-Cyan);
   padding: 0 2rem 3.3rem;
 }
 
-.grow-together img[src="images/bg-section-top-mobile-1.svg"] {
+.grow-together img[src="images/bg-section-top-mobile-1.svg"],
+.users img[src="images/bg-section-top-mobile-2.svg"] {
   position: absolute;
   top: 0;
   left: 0;
@@ -165,13 +166,92 @@ h1 {
   left: 0;
   transform: translate(8px, 100%);
 }
-.flowing-section {
-    margin: 12.3rem -2rem 0;
-    background-color: #f6fbff;
-    position: relative;
-}
-
 /* Flowing section  */
-.flowing-heading {
-
+.flowing-section {
+  margin: 12.3rem 0;
 }
+
+.flowing-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 5.5rem;
+}
+.flowing-paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--Very-Dark-Cyan);
+  padding: 0 0.25rem;
+}
+
+/* Users section  */
+
+.users {
+  margin: 14.1rem -2rem 0;
+  background-color: #f6fbff;
+  position: relative;
+  padding-top: 14px;
+  padding-bottom: 3.875rem;
+}
+
+.users img[src="images/illustration-your-users.svg"] {
+  width: 265px;
+}
+.users-div {
+  margin-top: 4.8rem;
+}
+
+.users-div h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.users-div p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--Very-Dark-Cyan);
+  padding: 0 2rem 3.3rem;
+  margin-top: 1rem;
+}
+
+.users-div img[src="images/bg-section-bottom-mobile-2.svg"] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(8px, 100%);
+}
+
+/* ready section  */
+
+.ready {
+  margin-top: 10.6rem;
+  margin-bottom: 23rem;
+}
+.ready h2 {
+  margin-bottom: 2.7rem;
+}
+.ready a {
+  color: #fff;
+  background-color: var(--Pink);
+  border-radius: 999px;
+  padding: 0.8rem 2.7rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+ /* Footer styling */
+
+ footer {
+    background-color: var(--Very-Dark-Cyan);
+    color: #fff;
+    margin: 0 -2rem;
+ }
+
+ footer h3{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-left: 4px;
+    color: #fff;
+    
+ }
