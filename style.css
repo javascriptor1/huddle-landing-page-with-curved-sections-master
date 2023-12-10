@@ -25,6 +25,7 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
+  color: var(--Very-Dark-Cyan);
 }
 a {
   text-decoration: none;
@@ -110,9 +111,67 @@ h1 {
 }
 
 .stats-div img[src="images/icon-messages.svg"] + p {
-font-size: 3.3rem;
+  font-size: 3.3rem;
 }
 .stats-div p:nth-of-type(2) {
   font-size: 0.9375rem;
   text-align: center;
+}
+
+.stats-div img[src="images/icon-messages.svg"] ~ p:nth-of-type(2) {
+  font-weight: 700;
+  font-size: 0.825rem;
+  position: relative;
+  left: -9px;
+  top: 1px;
+}
+
+/* Grow together section  */
+.grow-together {
+  margin: 7.3rem -2rem 0;
+  padding-top: 5.4rem;
+  background-color: #f6fbff;
+  position: relative;
+}
+
+.grow-together img[src="images/illustration-grow-together.svg"],
+.flowing-section img[src="images/illustration-flowing-conversation.svg"] {
+  width: 250px;
+}
+.section-heading {
+  margin-top: 4.6rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.section-paragraph {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--Very-Dark-Cyan);
+  padding: 0 2rem 3.3rem;
+}
+
+.grow-together img[src="images/bg-section-top-mobile-1.svg"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(8px, -100%);
+}
+
+.grow-together img[src="images/bg-section-bottom-mobile-1.svg"] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(8px, 100%);
+}
+.flowing-section {
+    margin: 12.3rem -2rem 0;
+    background-color: #f6fbff;
+    position: relative;
+}
+
+/* Flowing section  */
+.flowing-heading {
+
 }

@@ -1,1 +1,66 @@
-<svg width="1440" height="139" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h1440v139H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><g mask="url(#b)"><path d="M0-574.4c152.937-85.68 298.933-101.818 437.988-48.413 208.583 80.107 457.536 53.405 594.167 0 136.63-53.405 140.541-118.522 407.845-48.963 267.304 69.56 0 698.192 0 698.192s-211.887 128.179-591.858 64.09C594.828 47.779 312.114 63.996 0 139.156V-574.4z" fill="#F6FBFF"/><path d="M750-537h560V23H750z"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1440"
+   height="139"
+   version="1.1"
+   id="svg666"
+   sodipodi:docname="bg-section-bottom-desktop-1.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview668"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.75"
+     inkscape:cx="636.66667"
+     inkscape:cy="70"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg666" />
+  <defs
+     id="defs653">
+    <path
+       id="a"
+       d="M0 0h1440v139H0z" />
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g664"
+     style="fill:#ff8080">
+    <mask
+       id="b"
+       fill="#fff">
+      <use
+         xlink:href="#a"
+         id="use655" />
+    </mask>
+    <g
+       mask="url(#b)"
+       id="g662"
+       style="fill:#ff8080">
+      <path
+         d="M0-574.4c152.937-85.68 298.933-101.818 437.988-48.413 208.583 80.107 457.536 53.405 594.167 0 136.63-53.405 140.541-118.522 407.845-48.963 267.304 69.56 0 698.192 0 698.192s-211.887 128.179-591.858 64.09C594.828 47.779 312.114 63.996 0 139.156V-574.4z"
+         fill="#F6FBFF"
+         id="path658"
+         style="fill:#ff8080" />
+      <path
+         d="M750-537h560V23H750z"
+         id="path660"
+         style="fill:#ff8080" />
+    </g>
+  </g>
+</svg>
