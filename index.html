@@ -49,7 +49,12 @@
           <img src="images/illustration-grow-together.svg" alt="" />
         </div>
         <div>
-          <img src="images/bg-section-top-mobile-1.svg" alt="" />
+          <picture>
+            <source media="(min-width:1280px)" srcset="images/bg-section-top-desktop-1.svg">
+            <source media="(min-width:375px)" srcset="images/bg-section-top-mobile-1.svg">
+            <img src="images/bg-section-top-mobile-1.svg" alt="" />
+          </picture>
+          
           <h2 class="section-heading">Grow Together</h2>
           <p class="section-paragraph">
             Generate meaningful discussions with your audience and build a
