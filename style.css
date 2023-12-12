@@ -546,6 +546,7 @@ a svg {
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    position: relative;
   }
   footer button {
     margin: 0;
@@ -587,4 +588,17 @@ footer button:hover {
 
 ul li a svg:hover {
   fill: #00c7f9;
+}
+
+.error-border {
+  border: 2px solid var(--Light-Red);
+}
+.error-message {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(0, 130%);
+  color: var(--Light-Red);
+  margin-left: 10px;
 }
