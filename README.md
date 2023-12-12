@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page with curved sections solution
 
-This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -14,9 +14,7 @@ This is a solution to the [Huddle landing page with curved sections challenge on
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,83 +27,93 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/javascriptor1/huddle-landing-page-with-curved-sections-master)
+- [Live Site URL](https://huddle-landing-page-with-curved-sections-masterr.netlify.app/)
 
 ## My process
 
-### Built with
+Hello everyone 👋, I'm Mohammed and this is my solution to this nice challenge.
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+This challenge was very easy to solve. FAQ is a very common component of lots of web pages and this challenge is very good to make you ready and gain the required skills.
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+I will briefly talk about my current process of solving FEM challenges and I hope it will help and inspire other beginners (like me 😊). To make this process actionable so others can follow, I will list the steps I take to solve the challenge-
 
-### What I learned
+1- I download the challenge resource file and extract it in a special folder so I can use it in the future if needed without having to re-download it again.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+2- After the files were extracted, I read about the requirements to solve the challenge.
 
-To see how you can add code snippets, see below:
+3- After reading the requirements, I open the design folder to see the final product both for mobile and desktop screens. I also take note of the number of active state elements so I don't forget to do it while solving the main challenge.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+4- After I see both photos for screen designs, I take some notes on how best to do the HTML markup and how to structure the elements in the page. This is a very very important issue and help in later steps. I pick up the best semantic tags which serve the purpose of the content.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+5- I then create CSS styling and Javascript files, link them to the HTML file, initialize a new git repo, and make an initial commit on the master branch.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+6- Then I do the actual markup of all texts in the challenge file for mobile screens. for example, if a text is best displayed as an H1 tag, I wrap the text in h1 tag using a shortcut in VScode, etc.. I also add images and icons at this stage. then I create a new git branch for mobile design before I start styling.
 
-### Continued development
+**Note**: I always do mobile-first solution and don't combine mobile and desktop styling at the same stage.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+7- After I finish the markup stage, I go to the styling stage targeting mobile screens. I use a live server on VScode, go live and open the page in my Chrome, then use the **Pixel perfect** extension to load the design file for the mobile screen as an overlay on top of my actual page. I make sure the overlay image is exactly 100% on top of my HTML page. I make sure I choose the right screen resolution which is 375px.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+8- At this stage, I use the **Responsively app** to see how the page will look like on different screen sizes. I usually have the following screen sizes opened at the same time:
 
-### Useful resources
+- iPhone SE 375px **Fem design size for mobile**
+- iPhone Pro Max 428px
+- iPad mini 768px
+- iPad Air 820px
+- iPad Pro 1024px
+- My screen size 1366px
+- MacBook Pro 1440px **Fem design size for desktop**
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+9- After I finish the mobile screen design, I commit all changes, check to master branch, then merge the mobile-design branch with the master branch.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+10- I then create a new branch for desktop design, load the design image as an overlay on Chrome using the extension, and start coding on a custom screen size of 1440px I created for this purpose.
 
-## Author
+11- I repeat step 9 with the desktop branch. Then I create a new branch to style active state elements and I repeat step 9 after I finish all requirements.
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+**Note**: I will add a new git branch in the future for accessibility, SEO, and performance so I improve this area also.
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+12- I move to the Javascript part of the challenge after I create a new git branch for it.
 
-## Acknowledgments
+13- After I solve the Javascript part, I commit and merge into the master branch and my solution is ready for deployment.
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+14- I do final checks to make sure all things are working as they should, then I deploy to Netlify.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+15- I then upload my solution to FEM website
+
+This is a brief process overview I developed over time. I know it’s not perfect for sure but it's a good start for a beginner like me with big room for improvement in the future.
+
+This process does not take into account frameworks or libraries I might use in my solution. In case I did use such frameworks (like Tailwindcss for example), I install them at the initial stage.
+
+I love to hear from you. Please let me know how can I improve my process OR share your process so we all benefit from each others.
+
+**Built with** 🛠
+
+- Semantic HTML5 markup ✔
+- CSS grid 🔳
+- CSS custom properties 🎨
+- CSS Flexbox 🎁
+- Mobile-first workflow 📱
+- [PixelPerfect](https://www.welldonecode.com/perfectpixel/) chrome extension 👌
+- [Responsively](https://responsively.app/) ✌
+- [Web ToolBox](https://web-toolbox.dev/en/tools/image-compare-slider) ⚒
+
+**What I learned**
+
+- Create web page sections with curve shapes
+
+**Continued development**
+
+- Passing arguments to functions
+- Working with CSS :nth-child() selector
+
+**Useful resources**
+
+- [CSS :nth-child() Selector](https://www.w3schools.com/CSSref/sel_nth-child.php/)
+
+**Author**
+
+- Twitter -[https://twitter.com/javascriptor1]
