@@ -51,13 +51,14 @@ a {
   height: 16px;
 }
 .header a {
-  color: var(--Light-Pink);
-  border: 1px solid hsl(321, 100%, 78%);
+  color: var(--Pink);
+  border: 1px solid hsl(322, 100%, 66%);
   border-radius: 999px;
   padding: 0.2rem 0.9rem;
   font-size: 0.7rem;
   position: relative;
   left: -2px;
+  font-weight: 700;
 }
 section {
   text-align: center;
@@ -76,7 +77,7 @@ h1 {
 
 .get-started {
   color: #fff;
-  background-color: var(--Light-Pink);
+  background-color: var(--Pink);
   font-weight: 700;
   padding: 0.625rem 2.5rem;
   border-radius: 999px;
@@ -304,6 +305,7 @@ footer button {
   float: right;
   font-weight: 700;
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
 footer svg {
@@ -562,10 +564,27 @@ a svg {
     grid-template-columns: repeat(3, 44px);
     margin-top: 5rem;
     gap: 1rem;
+  }
+
+  ul svg {
+    transform: scale(1.5);
+  }
 }
 
-ul svg {
-  transform: scale(1.5);
+/* Active state styling */
+
+.header a:hover {
+  color: var(--Light-Pink);
+  border-color: currentColor;
 }
- 
+
+.get-started:hover,
+.ready a:hover,
+footer button:hover {
+  color: #fff;
+  background-color: var(--Light-Pink);
+}
+
+ul li a svg:hover {
+  fill: #00c7f9;
 }
